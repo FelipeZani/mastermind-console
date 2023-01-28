@@ -1,6 +1,5 @@
 /*
- *git test
- * 
+ * branch test
  * 
  */
 
@@ -27,9 +26,9 @@ board(int board1[])
 void
 fillboard(int board1[])
 {	
-	char couleur[];
+	char couleur[50];
 	int chiffre;	
-	printf("\nEntrez un chiffre");
+	printf("\nEntrez un chiffre dans l'intervale");
 	scanf("%d", &chiffre);
 	printf("\n Couleur:");
 	scanf("%s", &couleur);
